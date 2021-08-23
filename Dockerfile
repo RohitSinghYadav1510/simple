@@ -2,7 +2,7 @@ FROM centos:7
 
 #Copy all data from local to container
 COPY ./rohit.sh /
-COPY rohity-1.0-SNAPSHOT.jar /
+COPY rohit-1.0-yadav.jar /
 
 #Change Permission  
 RUN chmod +x /rohit.sh
