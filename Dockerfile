@@ -1,7 +1,4 @@
 FROM centos:7
-RUN yum -y update && \
-    yum -y install httpd && \
-    yum clean all
 
 #Copy all data from local to container
 COPY ./rohit.sh /
